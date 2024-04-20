@@ -203,3 +203,41 @@
   }
 }
 
+.sticky-icon {
+  z-index: 999;
+  position: fixed;
+  bottom: 5%;
+  left: 0;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sticky-icon a {
+  transform: translate(-160px, 0px); /* Adjust the translate value */
+  border-radius: 0px 50px 50px 0px; /* Adjust the border-radius value */
+  text-align: right; /* Adjust the text alignment */
+  margin: 2px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  transition: all 0.8s;
+}
+
+.sticky-icon a:hover {
+  transform: translate(0px, 0px);
+}
+
+.sticky-icon a:hover img {
+  animation: rotatef 1s forwards;
+}
+@keyframes rotatef {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: -360deg;
+  }
+}

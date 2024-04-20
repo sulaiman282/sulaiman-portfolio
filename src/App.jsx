@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import SocialLink from "./components/SocialLink";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         color={["#915EFF"]}
         cull="col,image-wrapper"
       />
+      <SocialLink/>
     </BrowserRouter>
   );
 };
