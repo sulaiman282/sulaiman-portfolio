@@ -17,16 +17,16 @@ const Ball = (props) => {
     props.imgUrl,
   ]);
 
-const [color, setColor] = useState("#915EFF");
-useEffect(() => {
-  const intervalId = setInterval(() => {
-    const randomColor = `#${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}`;
-    setColor(randomColor);
-  }, 5000);
-
-  return () => clearInterval(intervalId);
-}, []);
-
+  const [color, setColor] = useState("#FFFDFC");
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      const randomColor = `#${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}`;
+      setColor(randomColor);
+    }, 5000);
+  
+    return () => clearInterval(intervalId);
+  }, []);
+  
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
