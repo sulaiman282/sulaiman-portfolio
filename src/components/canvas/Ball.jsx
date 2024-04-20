@@ -20,13 +20,13 @@ const Ball = (props) => {
   const [color, setColor] = useState("#FFFDFC");
   useEffect(() => {
     const intervalId = setInterval(() => {
-      const randomColor = `#${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}${Math.floor(Math.random() * 128 + 128).toString(16).padStart(2, '0')}`;
+      const randomComponent = () => Math.floor(Math.random() * 128 + 128); // Generate a random component closer to 255
+      const randomColor = `rgb(${randomComponent()}, ${randomComponent()}, ${randomComponent()})`;
       setColor(randomColor);
     }, 5000);
-  
+
     return () => clearInterval(intervalId);
   }, []);
-  
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
