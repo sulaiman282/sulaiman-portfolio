@@ -166,29 +166,32 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working with him was an incredible experience. I was amazed by the level of creativity and attention to detail that our web developer brought to our project. He truly transformed our vision into reality, exceeding our expectations.",
+    name: "Hadd",
+    designation: "Marketing Director",
+    company: "Sunrise Tech",
+    image: "/reviews/hadd.png",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I had the pleasure of working with him, and I can confidently say that he is exceptional. His dedication to understanding our needs and delivering a tailored solution was remarkable. He went above and beyond to ensure our satisfaction.",
+    name: "Marc",
+    designation: "Operations Manager",
+    company: "Blue Horizon Inc.",
+    image: "/reviews/marc.png",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "It was an absolute pleasure working with him. His professionalism, expertise, and proactive communication made the entire process seamless and enjoyable. I highly recommend him for any web development project.",
+    name: "Fares",
+    designation: "Founder & CEO",
+    company: "Crimson Innovations",
+    image: "/reviews/fares.png",
   },
 ];
+
+
+
 
 const projects = [
   {
