@@ -24,7 +24,7 @@ import {
   tripguide,
   threejs,
   blubird,
-  buyonia
+  buyonia,
 } from "../assets";
 
 export const navLinks = [
@@ -190,21 +190,22 @@ const testimonials = [
   },
 ];
 
-
-
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "FoodClub UK",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Foodclub is a member and partner based club where members can enjoy guaranteed discount from club partners. Club Member can get discount from club partner (restaurant, food shop, grocery and meat shop etc) all over the UK.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "laravel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
@@ -213,49 +214,57 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.foodclubuk.com/",
   },
   {
-    name: "Job IT",
+    name: "New Village Fish Bar",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Welcome to our online restaurant food order site! Discover delicious meals crafted by our talented chefs and enjoy easy online ordering for delivery or pickup. Join us for a culinary journey filled with flavor and convenience.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
+      },
+      {
+        name: "laravel",
+        color: "green-text-gradient",
       },
       {
         name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.villagefishbar.co.uk/",
   },
   {
-    name: "Trip Guide",
+    name: "Unique Taxi",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Unique Taxi is a locally owned luxury tour and transport company in Chippenham, near Castle Combe and Lacock villages. With unrivaled local knowledge, exceptional customer service, and reliability, we're a leading taxi and tour company.",
     tags: [
       {
-        name: "nextjs",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://uniquetaxi.co.uk/",
   },
 ];
 
