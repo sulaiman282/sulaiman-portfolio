@@ -109,11 +109,8 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  }
+ 
 ];
 
 const experiences = [
