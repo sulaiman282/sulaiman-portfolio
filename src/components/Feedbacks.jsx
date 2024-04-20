@@ -21,7 +21,7 @@ const FeedbackCard = ({
         scale: 1,
         speed: 450,
       }}
-      className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+      className="backdrop-blur-md bg-white/10 p-10 rounded-3xl xs:w-[320px] w-full"
     >
       <p className="text-white font-black text-[48px]">"</p>
 
