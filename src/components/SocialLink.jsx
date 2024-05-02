@@ -9,7 +9,7 @@ export default function SocialLink() {
         rel="noreferrer"
         className="backdrop-blur-lg hover:bg-[#8856F2]/20 duration-300 flex justify-between items-center mx-5 shadow-md"
       >
-        <p className="text-center w-full text-primary">WhatsApp</p>
+        <p className="text-center w-full text-white">WhatsApp</p>
         <img
           src={"/whatsapp.png"}
           alt="WhatsApp logo"
